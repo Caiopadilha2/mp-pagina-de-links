@@ -13,12 +13,11 @@
   height: 100dvh;
   width: 100vw;
 
-  font-family: "Arvo", serif;
-  
+  font-family: 'Arvo', serif;
 }
 
 .background {
-  background-image: url("../public/assets/bg.png");
+  background-image: url('../public/assets/bg.png');
   background-size: cover;
   background-position: center;
 }
@@ -42,4 +41,49 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+
+.card-header__profile-image {
+  height: 100px;
+  border-radius: 100%;
+}
+
+.card__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+  width: 100%;
+}
+
+.card__links li {
+  border-radius: 17px;
+  border-right: 5px solid #c4ffb2;
+  border-bottom: 5px solid #c4ffb2;
+  background: #3c5335;
+
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card__links a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 20px 10px;
+
+  font-size: 24px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.card__social-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.card__social-links img {
+  height: 32px;
 }

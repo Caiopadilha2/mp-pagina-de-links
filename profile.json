@@ -1,0 +1,31 @@
+{
+  "name": "Caio ",
+  "lastName": "Padilha",
+  "avatar": "./public/assets/profileImg.jpeg",
+
+  "description": "Desenvolvedor Web - Estudante de Sistemas de Informação. Conheça o meu trabalho. 👇🏽",
+
+  "links": [
+    {
+      "text": "Meu portfólio",
+      "href": "https://caiopadilha.com.br"
+    },
+    {
+      "text": "Meu instragram",
+      "href": "https://www.instagram.com/caiopadilhaa/"
+    }
+  ],
+
+  "socialLinks": [
+    {
+      "text": "GitHub",
+      "icon": "./public/assets/github.svg",
+      "href": "https://github.com/Caiopadilha2"
+    },
+    {
+      "text": "LinkedIn",
+      "icon": "./public/assets/linkedin.svg",
+      "href": "https://www.linkedin.com/in/caio-padilha/"
+    }
+  ]
+}
